@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#D5F2F2;
+    color: #51A65E;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 11%;
+    position: absolute;
+    margin-left: 5%;
+
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color:  #51A65E;
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color:#45A9BF;
+}
+
+#imagem_fundo{
+    margin: 0;
+    background-image: url(Imagens/Design\ sem\ nome\ \(6\)\ -\ Cópia.jpg);
+    background-size: 100%;
+    height: 40%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20%;
+}
+
+#titulo{
+        color: #4992BF;
+        font-size: 70px;
+        padding-top: 23%;
+}
+
+#subtitulo{
+        color:#45A9BF;
+}
+
+#acao{
+    color: #4992BF;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#titulo_metas{
+    padding: 58%;
+    color: #4992BF;
+}
+
+#imagem_munique{
+    height: 40%;
+    padding: 40%;
+
+}
+
+.coluna3{
+    float: right;
+    padding: 5% 5%;
+    position: relative;
+    width: 23%;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.fonte_titulo{
+    font-family: 'Oswald', sans-serif;
+}
+
+.coluna2{
+    float: left;
+    padding: 10% 5%;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    padding-left: -50%;
+}
+
+.top{
+    padding-top: 63%;
+}
+
+.munique_conteudo{
+    display: table;
+    float: left;
+    position: relative;
+    text-align: center;
+    
+}
+
+.munique_texto{
+    display: table-cell;
+    float: left;
+    width: 40%;
+    padding: 10% 5%;
+    font-size: 25px;
+}
+
+.munique_imagem{
+    display: table-cell;
+    float: left;
+    padding: 50% 15%;
+    padding-top: 8%;
+    width: 0%;
+}
+
+.praga_conteudo{
+    display: table;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-top: -80%;
+    
+}
+
+.titulo_praga{
+    padding-top: 0%;
+}
+
+.praga_texto{
+    display: table-cell;
+    float: left;
+    width: 40%;
+    padding: 10% 5%;
+    font-size: 25px;
+}
+
+.praga_imagem{
+    display: table-cell;
+    float: left;
+    padding: 50% 15%;
+    padding-top: 8%;
+    width: 0%;
+}
