@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#D5F2F2;
+    color: #51A65E;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color:  #51A65E;
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color:#45A9BF;
+}
+
+#imagem_fundo{
+    margin: 0;
+    background-image: url(Design\ sem\ nome\ \(6\)\ -\ Cópia.jpg);
+    background-size: 100%;
+    height: 40%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20%;
+}
+
+#titulo{
+        color: #4992BF;
+        font-size: 70px;
+        padding-top: 23%;
+}
+
+#subtitulo{
+        color:#45A9BF;
+}
+
+#acao{
+    color: #4992BF;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#texto_coluna2{
+    font-size: 150%;
+    padding-top: 12%;
+}
+
+#texto_metas_casa{
+    font-size: 130%;
+}
+
+#como_ter{
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+#texto_botao{
+    padding-top: 5%;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.coluna3{
+    float: right;
+    padding: 5% 5%;
+    position: relative;
+    width: 23%;
+    font-size: 150%;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.fonte_titulo{
+    font-family: 'Oswald', sans-serif;
+}
+
+.coluna2{
+    float: left;
+    padding: 10% 5%;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    padding-left: -50%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    /*font-size: 120%;*/
+}
+
+.um{
+    width: 37%;
+    text-align: center;
+}
+
+.colunametas{
+    float: left;
+    padding: 15%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+    text-align: center;
+}
+
+.destaque{
+    background-color: #51A65E;
+}
+
+.destaque2{
+    background-color: #4992BF;
+}
+
+.destaque3{
+    background-color: #D5F2F2;
+}
+
+.destaque4{
+    background-color: #BF9B7A;
+}
+
+.destaque5{
+    background-color: #45A9BF;
+}
+
+.colunabotao{
+    float: left;
+    padding: 10% 5%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-left: 85%;
+    font-size: 80%;
+}
